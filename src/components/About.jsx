@@ -41,32 +41,28 @@ export default function About() {
         <div className="flex flex-col justify-center h-full">
           <h2 className="font-mono text-2xl text-text-primary mb-6 font-semibold uppercase">ABOUT</h2>
           
-          <div className="font-sans text-text-secondary text-base leading-relaxed mb-8 max-w-2xl">
-            <p className="mb-4">
-              I am a Fullstack Engineer specializing in AI automation and workflow optimization. 
-              I bridge the gap between complex business processes and intelligent systems, 
-              building custom tools that eliminate repetitive work and scale output.
-            </p>
-            <p>
-              My approach focuses on writing clean, maintainable code while leveraging the latest in 
-              LLM capabilities and API integrations to solve real-world operational bottlenecks.
-            </p>
-          </div>
-          
-          <ul className="space-y-3 font-sans text-text-primary text-sm max-w-2xl">
-            <li className="flex items-start">
-              <span className="text-accent mr-3 mt-1 text-xs">■</span>
-              <span>Building end-to-end automation pipelines and internal tooling</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-accent mr-3 mt-1 text-xs">■</span>
-              <span>Partnering with agencies, startups, and sales teams</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-accent mr-3 mt-1 text-xs">■</span>
-              <span>Based globally, working remotely</span>
-            </li>
-          </ul>
+         <div className="font-sans text-text-secondary text-base leading-relaxed mb-8 max-w-2xl">
+  <p className="mb-4">
+    I’m an AI Automation & Full-Stack Engineer focused on building systems that 
+    eliminate operational bottlenecks and replace fragmented manual workflows with scalable infrastructure.
+  </p>
+
+  <p className="mb-4">
+    I approach projects as business problems first and technical challenges second, 
+    designing systems for lead generation, automated outreach, proposal operations, 
+    AI voice agents, and content workflows that can run with minimal oversight.
+  </p>
+
+  <p className="mb-4">
+    When needed, I build the full product layer too, from clean interfaces and APIs 
+    to structured data systems and internal tooling.
+  </p>
+
+  <p>
+    The result is faster operations, more predictable execution, and less time lost to repetitive work.
+  </p>
+</div>
+      
         </div>
       </div>
     </section>
