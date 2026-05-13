@@ -73,7 +73,7 @@ export default function ProjectDetail() {
             <img
               src={project.thumbnail}
               alt={project.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               onError={() => setImgError(true)}
             />
           ) : (
